@@ -5,8 +5,8 @@ import { Model, Types } from 'mongoose';
 import { Order } from 'src/DB/models/order.model';
 import { User } from 'src/DB/models/user.model';
 import { Product } from 'src/DB/models/product.model';
-import { OrderStatusEnum } from 'src/common/Enums/order.enum';
 import { PaymentGetaway } from 'src/common/Payment/payment.getaway';
+import { OrderStatusEnum } from 'src/common/enums/order.enum';
 
 @Injectable()
 export class OrderService {

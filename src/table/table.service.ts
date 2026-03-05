@@ -4,7 +4,7 @@ import { UpdateTableDto } from './dto/update-table.dto';
 import { InjectModel } from '@nestjs/mongoose';
 import { Table } from 'src/DB/models/table.model';
 import { Model, Types } from 'mongoose';
-import { TableStatusEnum } from 'src/common/Enums/table.enum';
+import { TableStatusEnum } from 'src/common/enums/table.enum';
 import { PaymentGetaway } from 'src/common/Payment/payment.getaway';
 
 @Injectable()

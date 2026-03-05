@@ -1,6 +1,6 @@
 import { MongooseModule, Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
 import mongoose, { HydratedDocument, Schema as MongooseSchema, Types } from 'mongoose';
-import { ProviderEnum, UserRoleEnum } from "src/common/Enums/user.enum";
+import { ProviderEnum, UserRoleEnum } from "src/common/enums/user.enum";
 import { types } from "util";
 
 

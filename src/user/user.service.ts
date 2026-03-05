@@ -6,7 +6,7 @@ import { Model, Types } from 'mongoose';
 import { User } from 'src/DB/models/user.model';
 import { Table } from 'src/DB/models/table.model';
 import { JwtService } from '@nestjs/jwt';
-import { TableStatusEnum } from 'src/common/Enums/table.enum';
+import { TableStatusEnum } from 'src/common/enums/table.enum';
 
 @Injectable()
 export class UserService {

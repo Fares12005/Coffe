@@ -1,6 +1,6 @@
 import { MongooseModule, Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
 import mongoose, { HydratedDocument, Schema as MongooseSchema, Types } from 'mongoose';
-import { TableStatusEnum } from "src/common/Enums/table.enum";
+import { TableStatusEnum } from "src/common/enums/table.enum";
 
 
 @Schema({ timestamps: true , toJSON: { virtuals: true , transform(doc, ret: any) {
